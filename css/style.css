@@ -1,0 +1,56 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+
+}
+.container{
+   max-width:1170px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+/* all common css end */
+/* header section css start */
+#HeaderPart{
+    padding: 33px 0;
+}
+.NavBarFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MenuBar ul{
+    display: flex;
+    gap: 50px;
+}
+.MenuBar li:first-child a {
+    color: #5956E8;
+}
+.MenuBar ul li a{
+    color:#181818 ;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: Auto;
+    transition: .4s;
+}
+.Navbtn a{
+    background-color: #5956E8;
+    color: #FFFFFF;
+    padding: 13px 24px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* header section  css end */
+/* all common css start */
+/* all common css end */
+/* all common css start */
+/* all common css end */
