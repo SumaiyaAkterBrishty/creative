@@ -50,7 +50,57 @@ a{
 }
 
 /* header section  css end */
-/* all common css start */
-/* all common css end */
+/* Banner section css start */
+
+.banner {
+    height: 600px;
+    background-color: #5954e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.text {
+    width: 60%;
+    color: white;
+}
+
+.text h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.text p {
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.text a {
+    display: inline-block;
+    background-color: white;
+    color: #5954e8;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.image {
+    width: 40%;
+}
+
+.image img {
+    width: 100%;
+}
+
+/* Banner section css end */
 /* all common css start */
 /* all common css end */
