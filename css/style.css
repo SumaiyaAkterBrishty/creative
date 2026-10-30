@@ -20,8 +20,9 @@ ul,ol{
     list-style-type:none;
 }
 a{
-    text-decoration: none;
+    text-decoration: none; 
 }
+
 /* all common css end */
 /* header section css start */
 #HeaderPart{
@@ -98,7 +99,7 @@ a{
 
 /* Banner section css end */
 /* service section css start */
-#servicepart{
+ #servicepart{
 
 }
 .serviceContent{
@@ -118,9 +119,9 @@ a{
     width: 542px;
     margin: 0 auto;
 }
-.card{
+.card{ 
  
-    width: 33%;
+     width: 33%;
     padding: 63px 48px;
     border: 1px solid #E3E3E3;
     border-radius: 10px;
@@ -147,16 +148,13 @@ a{
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 25px;
-}
-/* .serviceCard{
-    position: relative;
-} */
+} 
 
 
 
 
 
-.serviceCard {
+ .serviceCard {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -173,7 +171,7 @@ a{
     border-radius: 10px;
 }
 
-/* First Row */
+First Row
 .card:nth-child(1) {
     top: 0;
     left: 0;
@@ -203,4 +201,4 @@ a{
     top: 380px;
     left: 66.66%;
 }
-/* service section css end */
+/* service section css end  */
