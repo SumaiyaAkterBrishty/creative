@@ -3,12 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-      font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 
 }
 .container{
-   max-width:1170px;
+   width:1170px;
     margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+
+    font-family: inter,sans-serif;
+    padding: 0;
+    margin: 0;
 }
 ul,ol{
     list-style-type:none;
@@ -30,9 +36,6 @@ a{
     display: flex;
     gap: 50px;
 }
-.MenuBar li:first-child a {
-    color: #5956E8;
-}
 .MenuBar ul li a{
     color:#181818 ;
     font-weight: 500;
@@ -48,59 +51,156 @@ a{
     font-weight: 500;
     font-size: 18px;
 }
+.MenuBar ul li a:hover{
+    color: #5954e8;
+}
 
 /* header section  css end */
 /* Banner section css start */
 
-.banner {
-    height: 600px;
+#bannerPart {
     background-color: #5954e8;
+    padding: 183px 0;
+}
+
+.BannerFlex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content {
-    width: 700px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
+
+.BannerContent h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 65 px;
+    color: #FFFEFE;
+    width: 301px;
+}
+.BannerContent p{
+    font-size: 16px;
+    font-weight:400 ;
+    color: #FFFFFF;
+    line-height: 27px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 542px;
+}
+.bannerbtn a{
+    padding: 13px 22px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+     color: #5956E8;
+
 }
 
-.text {
-    width: 60%;
-    color: white;
-}
-
-.text h1 {
-    font-size: 38px;
-    margin-bottom: 15px;
-}
-
-.text p {
-    font-size: 11px;
-    line-height: 18px;
-    margin-bottom: 20px;
-}
-
-.text a {
-    display: inline-block;
-    background-color: white;
-    color: #5954e8;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-
-.image {
-    width: 40%;
-}
-
-.image img {
-    width: 100%;
-}
 
 /* Banner section css end */
-/* all common css start */
-/* all common css end */
+/* service section css start */
+#servicepart{
+
+}
+.serviceContent{
+    text-align: center;
+}
+.serviceContent h3{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #181818;
+}
+.serviceContent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    width: 542px;
+    margin: 0 auto;
+}
+.card{
+ 
+    width: 33%;
+    padding: 63px 48px;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+.card:hover{
+
+    box-shadow: 0px 6px 35px 0px rgba(24, 24, 24, 0.08);
+}
+.card:hover .cardimg svg path{
+
+    fill:#5956E8 ;
+    stroke:#FFFFFF ;
+}
+.card p{
+    width: 274px;
+     font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(24, 24, 24, 0.7);
+}
+.card h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+/* .serviceCard{
+    position: relative;
+} */
+
+
+
+
+
+.serviceCard {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 730px;
+}
+
+.card {
+    width: 31%;
+    height: 350px;
+    position: absolute;
+    padding: 30px;
+    margin: 50px 0;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+}
+
+/* First Row */
+.card:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.card:nth-child(2) {
+    top: 0;
+    left: 33.33%;
+}
+
+.card:nth-child(3) {
+    top: 0;
+    left: 66.66%;
+}
+
+.card:nth-child(4) {
+    top: 380px;
+    left: 0;
+}
+
+.card:nth-child(5) {
+    top: 380px;
+    left: 33.33%;
+}
+
+.card:nth-child(6) {
+    top: 380px;
+    left: 66.66%;
+}
+/* service section css end */
